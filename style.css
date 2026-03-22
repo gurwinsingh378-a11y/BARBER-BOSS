@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to right, #1a1a1a, #333);
+  background: linear-gradient(to right, #111, #333);
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -8,26 +8,28 @@ body {
 
 .card {
   background: #ffffff;
-  max-width: 650px;
+  max-width: 700px;
   width: 100%;
-  padding: 30px;
+  padding: 40px;
   border-radius: 15px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
 h1 {
   text-align: center;
+  font-size: 36px;
   color: #111;
 }
 
 .subtitle {
   text-align: center;
   color: #777;
+  margin-bottom: 20px;
 }
 
 h2 {
-  color: #222;
   margin-top: 25px;
+  color: #222;
 }
 
 ul {
@@ -35,5 +37,5 @@ ul {
 }
 
 li {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
